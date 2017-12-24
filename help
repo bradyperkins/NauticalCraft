@@ -1,0 +1,17 @@
+Commands:
+> /nc - Displays plugin information and in-game help message.
+> /nkick - Kicks any player from the server. Logs the action.
+> /nban - Bans any player from the server. Logs the action.
+> /unban -- WARNING! This is currently not supported due to changed in Bukkit 1.12.1! Use /pardon instead.
+
+Permissions:
+
+groups:
+> all - default to operators
+> moderator - nc.staff (Kick, ban)
+> admin - nc.admin (Kick, ban, unban)
+
+nodes:
+> nc.kick
+> nc.ban
+> nc.unban
